@@ -1,0 +1,12 @@
+def greater_or_less_than_1000(num_1, num_2):
+  product = num_1 * num_2
+  if(product < 1000):
+    return product
+  else:
+    return num_1 + num_2
+
+num_1 = int(input("Hello, please enter the first number: "))
+num_2 = int(input("Hello, please enter the second number: "))
+
+result = greater_or_less_than_1000(num_1, num_2)
+print(f"The answer is {result}"
